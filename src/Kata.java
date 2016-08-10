@@ -13,8 +13,7 @@ public class Kata {
                 result = result + str.charAt(i) + " ";
             }
         }
-
-        return result;
+        return result.trim();
     }
 
     public static String notString(String str) {
@@ -83,6 +82,15 @@ public class Kata {
             theEnd = str.substring(0,2);
         }
         return theEnd;
+    }
+
+    public static String endUp(String str){
+        if (str.length() <= 3) return str.toUpperCase();
+        int snip = str.length() - 3;
+        String front = str.substring(0, snip);
+        String back  = str.substring(snip);
+
+        return front + back.toUpperCase();
     }
 
 

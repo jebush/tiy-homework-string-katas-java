@@ -79,11 +79,14 @@ public class Main {
         System.out.println("Kata.startOz(\"asdf\") -> \"" + Kata.startOz("asdf") + "\"");
         System.out.println("Kata.startOz(\"dfww\") -> \"" + Kata.startOz("dfww") + "\"");
 
-        /**End Up
-        System.out.println(Kata. + "\"");
-        System.out.println(Kata. + "\"");
-        System.out.println(Kata. + "\"");
-*/
+        //End Up
+        System.out.println("Kata.endUp(\"Hello\") -> \"" + Kata.endUp("Hello") + "\"");
+        System.out.println("Kata.endUp(\"Hello\") -> \"" + Kata.endUp("hi there") + "\"");
+        System.out.println("Kata.endUp(\"Hello\") -> \"" + Kata.endUp("hi") + "\"");
+        System.out.println("Kata.endUp(\"dude This\") -> \"" + Kata.endUp("dude This") + "\"");
+        System.out.println("Kata.endUp(\"dangiT\") -> \"" + Kata.endUp("dangiT") + "\"");
+        System.out.println("Kata.endUp(\"woah BRo\") -> \"" + Kata.endUp("woah BRo") + "\"");
+
 
 
 
